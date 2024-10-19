@@ -81,3 +81,16 @@ img {
         width: 80%;
     }
 }
+
+#small {
+    width:50px;
+    border: none;
+}
+#Mercury { background-color: #AF0909; }
+#Venus{ background-color: #E9D017 }
+#Mars { background-color: #E56503 }
+#Earth { background-color: #429106}
+#Jupiter {background-color: #B81993}
+#Saturn {background-color: #9F45DB }
+#Uranus {background-color: #30CEA4}
+#Neptune {background-color: #5ED6DE}
