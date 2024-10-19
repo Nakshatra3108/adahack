@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a23; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text */
+}
+
+h1 {
+    font-size: 3rem; /* Font size for heading */
+    color: #ffd700; /* Gold color for the heading */
+    margin-top: 20px; /* Margin on top */
+}
+
+p {
+    font-size: 1.2rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+    max-width: 800px; /* Max width for paragraphs */
+    margin: 20px auto; /* Centered margins */
+}
+
+/* Image styling */
+#Earth {
+    width: 50%; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Margin for spacing */
+    border: 5px solid #f5c71a; /* Gold border to match the theme */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Button styling */
+.button {
+    display: inline-block; /* Make it behave like a button */
+    background-color: #f5c71a; /* Gold button background */
+    color: #0a0a23; /* Dark text color */
+    padding: 10px 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Margin on top */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #ffd700; /* Brighter gold on hover */
+}
+
+/* Make the website responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Smaller font size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller font size for paragraphs */
+    }
+
+    #Earth {
+        width: 80%; /* Responsive image size */
+    }
+}

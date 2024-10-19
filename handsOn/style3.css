@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a23; /* Dark blue background to mimic space */
+    color: #f0f0f0; /* Light text for contrast */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffd700; /* Gold color for the heading */
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px; /* Max width for paragraphs */
+    margin: 20px auto; /* Centered margins */
+}
+
+/* Button styling */
+.button {
+    display: inline-block; /* Make it behave like a button */
+    background-color: #ffdd00; /* Bright button color */
+    color: #0a0a23; /* Dark text color */
+    padding: 15px 30px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 20px; /* Font size */
+    margin: 10px; /* Margin between buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #ffd700; /* Button hover color */
+}
+
+/* Image styling */
+#Space {
+    width: 600px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Margin for spacing */
+    border: 5px solid #ffd700; /* Border to match the theme */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Make the website responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Smaller font size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller font size for paragraphs */
+    }
+
+    #Space {
+        width: 80%; /* Responsive image size */
+    }
+}
